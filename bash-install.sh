@@ -3,6 +3,8 @@
 apt-get update
 apt update
 
+apt upgrade -s
+
 # CURL
 apt-get install curl -s
 
@@ -23,3 +25,7 @@ apt install swi-prolog -s
 apt install elixir -s 
 apt install wireshark -s
 apt install mit-scheme -s
+
+# Lua 5.4
+apt install apt-transport-https gnupg2 -s
+apt install lua5.4 -s
