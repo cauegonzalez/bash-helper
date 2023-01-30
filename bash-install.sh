@@ -20,7 +20,7 @@ apt install ghc -s
 apt install gcc -s 
 apt install g++ -s
 apt install php -s
-apt install ruby -s 
+apt install ruby-full -s 
 apt install perl -s 
 apt install swi-prolog -s
 apt install elixir -s 
