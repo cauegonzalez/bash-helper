@@ -15,6 +15,7 @@ rm google-chrome-stable_current_amd64.deb
 
 # Other requirements
 apt install python-is-python3 -s 
+apt install haskell-stack -s
 apt install ghc -s 
 apt install gcc -s 
 apt install g++ -s
