@@ -4,11 +4,12 @@ apt-get update
 apt update
 
 # CURL
-apt-get install curl
+apt-get install curl -s
 
 # CHROME
-wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
-sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google-chrome.list'
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm google-chrome-stable_current_amd64.deb
 
 # Other requirements
-apt install python-is-python3 ghc gcc g++ php ruby perl swi-prolog elixir wireshark mit-scheme lua5.4 -s
+apt install python-is-python3 ghc gcc g++ php ruby perl swi-prolog elixir wireshark mit-scheme -s
