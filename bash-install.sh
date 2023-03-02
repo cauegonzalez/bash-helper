@@ -16,6 +16,8 @@ rm google-chrome-stable_current_amd64.deb
 #open from menu
 
 # Other requirements
+apt install openjdk-8-jdk
+#java -version
 apt install python-is-python3 -s
 #python3
 apt install haskell-stack -s
